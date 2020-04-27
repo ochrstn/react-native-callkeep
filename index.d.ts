@@ -61,6 +61,7 @@ export default class RNCallKeep {
     localizedCallerName?: string,
     handleType?: HandleType,
     hasVideo?: boolean,
+    options?: object,
   ) {
 
   }
@@ -78,6 +79,7 @@ export default class RNCallKeep {
     uuid: string,
     displayName: string,
     handle: string,
+    options?: object,
   ) {
 
   }
